@@ -1,0 +1,6 @@
+Main()
+{
+	print " Hello,this is mine first git document."
+
+	print "	大家好，这是我的第一个git文件。"
+}
