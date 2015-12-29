@@ -1,11 +1,11 @@
-Main()
+ï»¿Main()
 {
 	print " Hello,this is mine first git document."
 
-	print "	´ó¼ÒºÃ£¬ÕâÊÇÎÒµÄµÚÒ»¸ögitÎÄ¼ş¡£"
+	print "	å¤§å®¶å¥½ï¼Œè¿™æ˜¯æˆ‘çš„ç¬¬ä¸€ä¸ªgitæ–‡ä»¶ã€‚"
 }
 
 demo1()
 {
-	print "²âÊÔ1£º1234567 7654321"
+	print "æµ‹è¯•1ï¼š1234567 7654321"
 }
