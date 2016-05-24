@@ -1,2 +1,2 @@
-# gitDemo
-this is just a "helloworld" and I do some tests to konw more about git and github. :)
+## 概述
+ 用来测试的仓库，请无视它 \_(:з」∠)_
