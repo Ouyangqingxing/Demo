@@ -14,11 +14,11 @@ public class UserController {
 	private UserService userService;
 
 	@RequestMapping("/index")
-		public ModelAndView  itemsList() {
-			User user = userService.getById(1l);
-			ModelAndView mav = new ModelAndView("index");
-			mav.addObject("user", user);
-			return mav;
+	public ModelAndView  itemsList() {
+		User user = userService.getById(1l);
+		ModelAndView mav = new ModelAndView("index");
+		mav.addObject("user", user);
+		return mav;
 	}
 
 }

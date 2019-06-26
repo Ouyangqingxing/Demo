@@ -14,7 +14,12 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User getById(long id) {
-        User user = userMapper.getById(id);
+        User user = null;
+        try {
+            user = userMapper.getById(id);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return user;
     }
 
